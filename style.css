@@ -1,0 +1,202 @@
+*{
+    font-family:"roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    padding: 30px 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+nav ul {
+        display: flex;
+        list-style-type: none;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap:7em;
+    padding:20px 10%;
+}
+
+.photo img {
+    width: 300px;
+    border-bottom: 10px solid blueviolet;
+}
+
+.media {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap:5em;
+    padding:5px 10%;
+}
+
+
+.imag img.anim {
+    animation-delay: 1s;
+  }
+
+  .anim{
+        opacity: 0;
+        transform: translateY(30px);
+        animation: moveup 0.5s linear forwards;
+  }
+  @keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  }
+
+
+.contenu {
+    width: 100%;
+    height: 100vh;
+    padding: 90px;
+}
+
+.contenu .titre1 {
+    padding-bottom: 10px;
+}
+
+.contenu .titre2 {
+    font-size: 25px;
+    padding-bottom: 10px
+}
+
+.contenu .detail {
+
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    width: 100%; 
+    margin: 30px 0;
+  }
+
+  footer .koffiname{
+    margin-bottom: 10px;
+  }
+
+
+  .socailmedia a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .apropos{
+    width: 100%;
+    height: 100vh;
+    padding:20px 10%;
+  }
+
+  .apropos .textkoffi {
+    margin-bottom: 20px;
+    line-height: 1.8; 
+    font-size: 20px;
+  }
+
+  .work {
+    width: 100%;
+    height: 100vh;
+    padding:20px 10%;
+  }
+
+  .work ul li {
+    font-size: 20px;
+  }
+
+  .objectif {
+    width: 100%;
+    height: 100vh;
+    padding:20px 10%;
+    font-size: 20px;
+  }
+
+  .contact-form {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 100vh;
+  }
+
+  .contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+
+input:hover, textarea:hover {
+    border-color: black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+button:hover {
+    background-color: black;
+}
+
+.objectif a {
+    text-decoration: none;
+    color: black;
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+}

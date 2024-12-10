@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio Koffi Koffi</title>
 </head>
 
@@ -10,56 +14,62 @@
 
 <!-- Nav -->
     <nav>
-        <div>
+        
             <ul>
-                <li><a href="Index.html">home</a></li>
+                <li><a href="Index.html" class="active">home</a></li>
                 <li><a href="about.html">about</a></li>
                 <li><a href="work.html">work</a></li>
                 <li><a href="resume.html">resume</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
-        </div>
+        
     </nav>
 <hr>
 
 <!-- header -->
    <header>
-    <div>
-        <h1 style="color: blueviolet;">
+
+    <div class="contenu">
+        <h1 style="color: blueviolet;" class="titre1">
             Bienvenue sur mon site portfolio !
         </h1>
 
-        <h2>
+        <h2 class="titre2">
             je suis KOFFI KOFFI, Développeur web (Frontend)
         </h2>
 
-        <p>
+        <p class="detail">
             Passionné par le monde du web et des technologies, je mets en avant mes compétences et projets dans le domaine du développement.
         </p>
 
-        <img src="photokoffi.jpg" alt="photokoffi" width="200" height="auto">
-
-        <br> <br> <br>
-
-        <video width="300" controls autoplay loop muted>
-            <source src="videoyakrobasilique.mp4">
-        </video>
-
-        <br> <br> <br>
-
-        <audio src="Akon - Lonely (Official Music Video).mp3" controls></audio>
     </div>
+        
+    <div class="photo">
+        <img src="photokoffi.jpg" alt="photokoffi" width="200" height="auto" class="anim">
+    </div>
+
+    
    </header>
+
+   <div class="media">
+    <video width="300" controls autoplay loop muted>
+        <source src="videoyakrobasilique.mp4">
+    </video>
+
+    <br> <br> <br>
+
+    <audio src="Akon - Lonely (Official Music Video).mp3" controls></audio>
+   </div>
     <hr>
     <!-- footer -->
    <footer>
-    <p>
+    <p class="koffiname">
         &copy; 2024 Koffi Koffi. Tous droits réservés.
     </p>
 
-   <div>
+   <div class="socailmedia">
     <a href="#">LinkedIn</a>
-    <a href="">GitHub</a>
+    <a href="#">GitHub</a>
    </div>
    </footer>
 </body>
